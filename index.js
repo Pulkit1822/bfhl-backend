@@ -4,9 +4,9 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-const user_id = "john_doe_17091999";
-const email = "john@xyz.com";
-const roll_number = "ABCD123";
+const user_id = "pulkit_kumar_mathur_18062003";
+const email = "pulkit.kumar2021@vitbhopal.ac.in";
+const roll_number = "21BCE11602";
 
 app.post('/bfhl', (req, res) => {
     const data = req.body.data;
